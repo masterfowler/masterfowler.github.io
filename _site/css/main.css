@@ -152,7 +152,8 @@ pre {
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   position: relative;
-  background-color: #247808; }
+  background-image: url("../img/always_grey.png");
+  background-repeat: repeat; }
 
 .site-title {
   font-size: 26px;
@@ -170,7 +171,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #fff;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
