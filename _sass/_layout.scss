@@ -36,6 +36,7 @@
     .page-link {
         color: #fff;
         line-height: $base-line-height;
+        text-decoration: none;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -213,6 +214,11 @@
         font-size: 36px;
     }
 }
+
+.post-title a {
+	text-decoration: none;
+}
+
 
 .post-content {
     margin-bottom: $spacing-unit;

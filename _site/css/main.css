@@ -72,7 +72,7 @@ a {
     color: #1756a9; }
   a:hover {
     color: #111;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 /**
  * Blockquotes
@@ -172,7 +172,8 @@ pre {
     display: none; }
   .site-nav .page-link {
     color: #fff;
-    line-height: 1.5; }
+    line-height: 1.5;
+    text-decoration: none; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
@@ -298,6 +299,9 @@ pre {
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
+
+.post-title a {
+  text-decoration: none; }
 
 .post-content {
   margin-bottom: 30px; }
