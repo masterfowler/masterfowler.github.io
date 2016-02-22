@@ -1,0 +1,28 @@
+.helloworld-p {
+  animation: change-color 3s infinite linear;
+  position: absolute;
+}
+
+.helloworld-box {
+  animation: spin-box 2s infinite linear;*/
+  height: 18px;
+  width: 18px;
+  background-color: #49DB18;
+  positon: absolute;
+  border: solid 2px #222;
+  border-radius: 3px;
+  color: #000;
+  font-style: bold;
+  text-align: center;
+}
+
+@keyframes spin-box {
+  25% { transform: rotate(45deg) }
+  50% { transform: rotate(-45deg) }
+  75% { transform: rotate(-45deg) }
+}
+
+@keyframes change-color {
+  0% { color: #000 }
+  50% { color: #49DB18 }
+}
