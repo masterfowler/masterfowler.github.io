@@ -1,5 +1,11 @@
-.helloworld-p {
+.helloworld-container {
+  position: relative;
+}
+
+.helloworld-text {
   animation: change-color 3s infinite linear;
+  left: 24px;
+  top: 0px;
   position: absolute;
 }
 
@@ -8,12 +14,14 @@
   height: 18px;
   width: 18px;
   background-color: #49DB18;
-  positon: absolute;
+  position: absolute;
   border: solid 2px #222;
   border-radius: 3px;
   color: #000;
   font-style: bold;
   text-align: center;
+  left: 0px;
+  top: 0px;
 }
 
 @keyframes spin-box {
